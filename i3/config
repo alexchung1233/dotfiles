@@ -196,5 +196,5 @@ gaps outer 5px
 default_border none
 default_floating_border none
 exec_always nitrogen --restore
-exec_always redshift -l 40.7:70.4 -t 5700:3600 -g 0.8 -m randr -v
-
+exec redshift -l 40.7:70.4 -t 5700:3600 -g 0.8 -m randr -v
+exec_always picom
